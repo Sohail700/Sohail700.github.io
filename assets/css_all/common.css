@@ -23,15 +23,18 @@ html,body{
 /* blog name css */
 .blog-name a {
   text-decoration: none;
-  color: rgb(50, 93, 93);
+  color: rgb(63, 113, 113);
   font-weight: 900;
   font-size: 30px;
+}
+.blog-name a:hover{
+  color: rgb(50, 90, 90);
 }
 
 /* navigation container */
 .header-nav-container a {
   text-decoration: none;
-  color: #929191;
+  color: #c7c7c7;
   font-weight: 900;
   font-size: 19px;
   margin: 0;
@@ -39,7 +42,7 @@ html,body{
 }
 
 .header-nav-container a:hover {
-  color: #c7c7c7;
+  color: #929191;
 }
 .header-nav-container a:active {
   text-decoration: underline;
