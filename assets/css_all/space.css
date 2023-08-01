@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+html{
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(247, 246, 244);
+  height: auto;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0 0;
+  margin-bottom: 500px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* middle section starts here--------------------------- */
+.math-video {
+  object-fit: fill;
+  width: 100vw;
+  height: 90vh;
+}
+
+/* main section ---------------------------------------------- */
+.space-post {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+}
+.space-container h1 {
+  font-size: 50px;
+  margin: 10px 10px 0 10px;
+  color: rgb(75, 87, 87);
+}
+.space-container hr {
+  margin: 0 7px;
+  margin-bottom: 30px;
+  width: 330px;
+  font-weight: 800;
+
+}
+.space-container a{
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.space-container h2 {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.space-container h4 {
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 0;
+  color: #3b3b3b;
+}
+.space-post h2,
+.space-post h4{
+  color: #5a5a5a;
+}
+.space-post h2:hover {
+  text-decoration: underline;
+}
+.space-container h4 hr{
+ margin-left: 0;
+ margin-top: 10px;
+ width: 100%;
+}
+.space-container {
+  margin-top: 0;
+  margin-left: 5px;
+}

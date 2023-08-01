@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* html and body section */
+html{
+  overflow-x:hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(247, 246, 244);
+  position: relative;
+  color: rgb(21, 30, 30);
+  -webkit-tap-highlight-color: transparent;
+  height: 1000px;
+}
+
+/* middle section -------------------*/
+.about-midde-section {
+  display: flex;
+  max-width: 100%;
+  height: 500px;
+  background-attachment:fixed;
+}
+.about-midde-section img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position:top;
+  image-rendering:pixelated;
+}
+.imgtext  {
+  top: 25vh;
+  left: 80vh;
+  position: absolute;
+  color: black;
+  font-weight: 700;
+  font-size: 60px;
+  
+}
+@media (max-width: 760px){
+  .imgtext  {
+    top: 30vh;
+    left: 15vh;
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 60px;
+    
+  }
+}
+
+
+/* main about section --------------*/
+.about {
+  margin-bottom: 500px;
+  margin: 10px 10px;
+  position: relative;
+}
+.about .social {
+  display: flex;
+  align-items: center;
+}
+.about img {
+  width: 30px;
+}
+.about a {
+  text-decoration: none;
+  color: rgb(21, 30, 30);
+}
+.about h3:hover {
+  text-decoration: underline;
+}
+.about-midde-section {
+  width: 100%;
+  margin: 0 auto;
+}
+.about-midde-section .back-video {
+  object-fit: fill;
+  width: 100vw;
+  height: 50vh;
+}
+.about-midde-section .about-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+.about-midde-section .about-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-midde-section .about-content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.about-midde-section .about-content .social {
+  margin-top: 20px;
+}
+.about-midde-section .about-content .social a {
+  margin: 0 10px;
+}
+.about-midde-section .about-content .social img {
+  width: 30px;
+}
+.about-midde-section .about-content .social a:hover {
+  text-decoration: underline;
+}
+
