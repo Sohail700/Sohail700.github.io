@@ -118,6 +118,7 @@ html {
     display: flex;
     position: absolute;
     bottom: 10px;
+    max-width: 100%;
   }
   .header-nav-container a{
     text-decoration: none;
@@ -126,7 +127,8 @@ html {
     color: #878787;
     font-weight: 900;
     font-size: 19px;
-    margin: 0 15px;
+    margin: 0 10
+    px;
     padding: 11px;
   }
   .blog-name {
