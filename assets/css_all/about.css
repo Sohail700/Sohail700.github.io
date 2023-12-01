@@ -67,6 +67,7 @@ body {
 }
 .about img {
   width: 30px;
+  background-color: #fff;
 }
 .about a {
   text-decoration: none;
