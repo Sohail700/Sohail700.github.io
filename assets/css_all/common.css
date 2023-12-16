@@ -88,7 +88,7 @@ html {
 }
 @media (max-width: 760px) {
   .blog-name{
-    margin-bottom: 0px;
+    margin-top: -20px;
     background-color: #b53e3e;
     padding: 4px 4px;
     border-radius: 5px;

@@ -43,10 +43,10 @@ header .space-header-container {
 } 
 .space-header-container a {
   text-decoration: none;
-  color: rgb(47, 89, 89);
+  color: #b53e3e;
   margin-left: 20px;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 
@@ -136,28 +136,22 @@ main .content {
 .credit a {
   color: rgb(32, 69, 69);
 }
-
-
-/* footer section ---------------------------------- */
-footer {
-  display: flex;
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0px 4px 10px rgba(91, 91, 91, 0.166);
-  color: #fff;
-  padding: 5px 15px;
-  border-radius: 20px;
-  font-weight: 900;
-  font-size: 22px;
-  background-image: linear-gradient(to right, #8360c3, #2ebf91);
-  transition: background-image 0.5s;
-}
-
-footer:hover {
-  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-  
+.top{
+   /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(143, 57, 57); /* Set a background color */
+  color: rgb(227, 227, 227); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 7px 20px; /* Some padding */
+  border-radius: 30px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
 }
 
 
@@ -167,21 +161,3 @@ footer:hover {
 
 
 
-
-
-/* responsive----------------------------------------------------- */
-
-@media (max-width: 600px) {
-  footer {
-    display: flex;
-    position: fixed;
-    right: 30px;
-    bottom: 20px;
-    box-shadow: 0px 4px 10px rgba(91, 91, 91, 0.166);
-    color:  #fff;
-    padding: 0px 15px;
-    border-radius: 20px;
-    font-weight: 800;
-    font-size:16px;
-  }  
-}
