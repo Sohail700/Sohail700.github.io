@@ -21,10 +21,11 @@ body {
 }
 
 /* middle section starts here--------------------------- */
-.math-video {
+
+.gif {
   object-fit: fill;
   width: 100vw;
-  height: 90vh;
+  height: 60vh;
 }
 
 /* main section ---------------------------------------------- */
