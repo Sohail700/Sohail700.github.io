@@ -22,10 +22,10 @@ body {
 
 /* middle section starts here--------------------------- */
 
-.gif {
+img.gif {
   object-fit: fill;
   width: 100vw;
-  height: 60vh;
+  height: auto;
 }
 
 /* main section ---------------------------------------------- */
