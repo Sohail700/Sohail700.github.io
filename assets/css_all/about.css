@@ -27,7 +27,7 @@ body {
   background-attachment:fixed;
 }
 .about-midde-section img{
-  height: 100%;
+  height: auto;
   width: 100%;
   object-fit: cover;
   object-position:top;
@@ -53,7 +53,7 @@ body {
   .imgtext  {
     top: 30vh;
     left: 15vh;
-    color: #be2823;
+    color: #933734;
     font-weight: 700;
     font-size: 70px;
     
