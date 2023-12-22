@@ -94,8 +94,11 @@ html {
     padding: 4px 4px;
     border-radius: 5px;
     position: absolute;
-    top: 40px;
-    margin-left: 25px;
+    top: 33px;
+    margin-left: 10px;
+  }
+  .blog-name a {
+    font-size: 16px;
   }
   .header-container {
     flex-direction: row;
@@ -103,7 +106,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    height: 70px;
+    height: 62px;
     align-items: start;
     padding: 5px 5px;
     z-index: 300;
@@ -122,10 +125,10 @@ html {
     display: flex;
     justify-content: space-between;
     color: #878787;
-    font-weight: 900;
-    font-size: 20px;
-    margin: 0 4px;
-    padding: 11px;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0 3px;
+    padding: 10px 4px;
   }
   
   html {
