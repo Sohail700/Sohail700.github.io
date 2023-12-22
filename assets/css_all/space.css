@@ -25,6 +25,7 @@ body {
 img.gif {
   object-fit: fill;
   width: 100vw;
+  max-height: 420px;
   height: auto;
 }
 

@@ -11,7 +11,7 @@ html,body{
   top: 0;
   left: 0;
   right: 0;
-  height: 70px;
+  height: 60px;
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 50px;
@@ -24,12 +24,13 @@ html,body{
 .blog-name a {
   text-decoration: none;
   color: rgb(31, 51, 51);
+  background-color: #b53e3e;
+  padding: 4px 4px;
+  border-radius: 5px;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 26px;
 }
-.blog-name a:hover{
-  color: rgb(51, 86, 86);
-}
+
 
 /* navigation container */
 .header-nav-container a {
@@ -94,41 +95,30 @@ html {
     border-radius: 5px;
     position: absolute;
     top: 40px;
-    margin-left: 25px;
+    margin-left: 8px;
+  }
+  .blog-name a{
+    font-size: 19px;
   }
   .header-container {
-    flex-direction: column;
+    flex-direction: row;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 130px;
-    justify-content: center;
+    height: 70px;
     align-items: start;
     padding: 5px 5px;
     z-index: 300;
-    margin-bottom: 100px;
   }
-  .space-header-container {
-    flex-direction: row;
-    position: fixed;
-    justify-content: space-between;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    padding: 5px 5px;
-    z-index: 300;
-  }
+
   .space-header-container .back {
     margin-right: 20px;
   } 
   .header-nav-container {
     display: flex;
-    position: absolute;
-    margin-left: 9px;
-    bottom: 10px;
-    max-width: 100%;
+    margin-left: auto;
+    max-width: auto;
   }
   .header-nav-container a{
     text-decoration: none;
@@ -136,8 +126,8 @@ html {
     justify-content: space-between;
     color: #878787;
     font-weight: 900;
-    font-size: 18px;
-    margin: 0 10px;
+    font-size: 20px;
+    margin: 0 4px;
     padding: 11px;
   }
   
@@ -182,7 +172,7 @@ html {
     font-size: 15px;
   }
   .space-middle-section {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .space-middle-section .math-video {
     object-fit: fill;

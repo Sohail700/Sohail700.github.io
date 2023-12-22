@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-html {
-  
+p{
+  line-height:28px;
 }
 body {
   height: 1000px;
@@ -26,28 +26,28 @@ body {
 .preview-container {
   margin: 10px 30px;
   cursor: pointer;
+  background-color: rgb(223, 227, 232);
+  content: '\eddd';
+  padding: 7px 7px;
+  border-radius: 7px;
 }
 .preview-container .recent-post {
   max-width: 800px;
   width: 100%;
 }
 .preview-container .recent-post .topic {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.preview-container .topic {
-  font-size: 30px;
-  font-weight: 700;
-
-}
 .preview-container .content {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
 }
 .preview-container .author {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .preview-container .recent-post a:hover {
