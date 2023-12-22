@@ -5,6 +5,7 @@ p{
 }
 body {
   height: 1000px;
+  margin: 0px 0px;
 }
 /* background image ----------------------------*/
 .back-image{
@@ -12,7 +13,6 @@ body {
   max-width: 100%;
   height: 400px;
   background-attachment:fixed;
-  
 }
 .back-image img {
   width: 100%;
@@ -78,4 +78,7 @@ body {
   margin: 20px 0px;
   width: 800px;
   border: 1px solid rgb(170, 188, 188);
+}
+.main-content {
+  margin-top: -40px;
 }
