@@ -95,10 +95,7 @@ html {
     border-radius: 5px;
     position: absolute;
     top: 40px;
-    margin-left: 8px;
-  }
-  .blog-name a{
-    font-size: 19px;
+    margin-left: 25px;
   }
   .header-container {
     flex-direction: row;
