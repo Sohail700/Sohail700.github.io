@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="assets/css_all/about.css">
     <link rel="stylesheet" href="assets/css_all/common.css">
+    <link rel="stylesheet" href="assets/css_all/style.css">
     <script src="scroll.js"></script> 
 
     <!-- googel adsense -->
@@ -28,9 +29,16 @@
           </a>
         </div>
         <div class="header-nav-container">
-          <a href="index.html">HOME</a>
-          <a href="about.html">ABOUT ME</a>
-          <a href="space.html">POSTS</a>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="space.html">Post</a>
+          </div>
+          
+          <div id="main">
+            <span style="font-size:30px;cursor:pointer;color: #818181;" onclick="openNav()">☰</span>
+          </div>
         </div>
       </div>
     </header>

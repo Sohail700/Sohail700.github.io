@@ -11,7 +11,6 @@ html{
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(247, 246, 244);
   height: auto;
   position: relative;
   overflow-x: hidden;
@@ -25,7 +24,7 @@ body {
 img.gif {
   object-fit: fill;
   width: 100vw;
-  max-height: 250px;
+  max-height: 450px;
 }
 
 /* main section ---------------------------------------------- */
@@ -38,7 +37,7 @@ img.gif {
 .space-container h1 {
   font-size: 50px;
   margin: 10px 10px 0 10px;
-  color:rgb(107, 45, 45);
+  color:rgb(56, 54, 54);
 }
 .space-container hr {
   margin: 0 7px;
@@ -49,7 +48,6 @@ img.gif {
 }
 .space-container a{
   text-decoration: none;
-  color: #3b3b3b;
 }
 .space-container h2 {
   margin-left: 10px;
@@ -59,7 +57,7 @@ img.gif {
   font-weight: 500;
   margin-left: 10px;
   margin-top: 0;
-  color: #3b3b3b;
+  
 }
 .space-post h2,
 .space-post h4{

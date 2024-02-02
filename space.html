@@ -30,9 +30,16 @@
           </a> 
         </div>
         <div class="header-nav-container">
-          <a href="index.html">HOME</a>
-          <a href="about.html">ABOUT ME</a>
-          <a href="space.html">POSTS</a>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="space.html">Post</a>
+          </div>
+          
+          <div id="main">
+            <span style="font-size:30px;cursor:pointer;color: #818181;" onclick="openNav()">☰</span>
+          </div>
         </div>
       </div>
     </header>
@@ -49,10 +56,10 @@
     <main>
       <div class="space-container">
         <h1>POSTS</h1>
-        <div class="preview-container" style="background-color: rgb(250, 239, 226);">
+        <div class="preview-container">
           <div class="recent-post">
             <a href="space-pages.html">
-              <p class="topic" style="color: rgb(107, 45, 45);">Introduction to Neural Networks, Machine Learning and ANN Model </p>
+              <p class="topic">Introduction to Neural Networks, Machine Learning and ANN Model </p>
               <p class="content" style="font-weight: 500;">A neural network is a type of artificial intelligence that mimics the human brain, combined with computer science&period;&period;&period;&period;</p>
             </a>
           </div>

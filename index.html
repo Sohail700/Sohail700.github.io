@@ -34,9 +34,16 @@
           </a>
         </div>
         <div class="header-nav-container">
-          <a href="index.html">HOME</a>
-          <a href="about.html">ABOUT ME</a>
-          <a href="space.html">POST</a>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="space.html">Post</a>
+          </div>
+          
+          <div id="main">
+            <span style="font-size:30px;cursor:pointer;color: #818181;" onclick="openNav()">☰</span>
+          </div>
         </div>
       </div>
     </header>
