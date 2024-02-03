@@ -37,12 +37,12 @@ body {
   top: 25vh;
   left: 80vh;
   position: absolute;
-  color: black;
+  color: rgb(35, 35, 35);
   font-weight: 700;
   font-size: 90px;
   
 }
-@media (max-width: 760px){
+@media (max-width: 900px){
   .about-midde-section {
     display: flex;
     position: absolute;
@@ -54,16 +54,31 @@ body {
     display: flex;
     position: absolute;
     top: 15vh;
-    left: 11vh;
+    left: 20vh;
     color: #933734;
     font-weight: 700;
     font-size: 48px;
+    line-height: 50px;
   }
   .about{
     margin-bottom: 500px;
   margin: 10px 10px;
   position: relative;
   top: 40vh;
+  }
+
+  @media (min-width: 850px) {
+    .imgtext  {
+      display: flex;
+      position: absolute;
+      top: 20vh;
+      left: 45vh;
+      color: #933734;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 50px;
+    }
+    
   }
   
 }
@@ -78,6 +93,7 @@ body {
 .about .social {
   display: flex;
   align-items: center;
+  
 }
 .about img {
   width: 30px;
