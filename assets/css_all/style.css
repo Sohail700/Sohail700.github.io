@@ -4,6 +4,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* sidebar section */
 .sidenav {
   height: 100%;
   width: 0;
@@ -13,17 +14,17 @@ body {
   right: 0;
   background-color: #262323;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.7s;
   padding-top: 60px;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 30px;
   color: #808080;
   display: block;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .sidenav a:hover {
@@ -36,6 +37,7 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  color: #b53e3e;
 }
 
 #main {
