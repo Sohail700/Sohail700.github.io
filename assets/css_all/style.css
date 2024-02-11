@@ -14,34 +14,35 @@ body {
   right: 0;
   background-color: #262323;
   overflow-x: hidden;
-  transition: 0.7s;
+  transition: 0.5s;
   padding-top: 60px;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 27px;
   color: #808080;
   display: block;
-  transition: 0.7s;
+  transition: 0.2s;
 }
 
 .sidenav a:hover {
   color: rgb(77, 98, 98);
+  font-size: 30px;
 }
 
 .sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 35px;
   margin-left: 50px;
   color: #b53e3e;
+  transition: all 0.3s ease-out;
 }
-
 #main {
-  transition: margin-left .7s;
+  transition: margin-left .5s;
   padding: 16px;
 }
 
