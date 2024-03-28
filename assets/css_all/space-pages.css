@@ -36,14 +36,14 @@ header .space-header-container {
   align-items: center;
   height: 90px;
   font-weight: 800;
-  background-color: #343232;
+  background-color: #464444;
 }
 .space-header-container .back {
   margin-right: 40px;
 } 
 .space-header-container a {
   text-decoration: none;
-  color: #b53e3e;
+  color: rgb(149, 149, 149);
   margin-left: 20px;
   font-weight: 900;
   font-size: 30px;
