@@ -1,16 +1,9 @@
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
 function openNav() {
-  document.getElementById("mySidenav").style.width = "200px";
-  document.getElementById("main").style.marginLeft = "200px";
+  document.getElementById("mySidenav").style.height = "calc(100% - 70px)";
+  document.getElementById("main").innerHTML = '<span style="font-size:50px;cursor:pointer;transition: all 0.7s ease-out;color: #818181;" onclick="closeNav()">×</span>';
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("mySidenav").style.height = "0";
+  document.getElementById("main").innerHTML = '<span style="font-size:30px;cursor:pointer;transition: all 0.7s ease-out;color: #818181;" onclick="openNav()">☰</span>';
 }
